@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 public class ProdutoMatriz {
-//    int[][] matriz;
-    int[][] matriz = {{9,1,2,4,5},{2,4,3,5,1},{3,2,6,4,8},{4,3,2,1,7},{7,3,2,6,1}};
+    private int[][] matriz;
+//    int[][] matrizTeste = {{9,1,2,4,5},{2,4,3,5,1},{3,2,6,4,8},{4,3,2,1,7},{7,3,2,6,1}};
 
     public void criaMatriz(int tamanho){
         matriz = new int[tamanho][tamanho];
